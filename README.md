@@ -111,7 +111,7 @@ src/
 
 ## Canlı Demo
 
-Canlı demo bağlantısı ve gereksinimleri push sonrası bu bölüme eklenecektir.
+**Canlı demo:** [nodelabs-fintech-case-study.vercel.app](https://nodelabs-fintech-case-study.vercel.app)
 
 ---
 
