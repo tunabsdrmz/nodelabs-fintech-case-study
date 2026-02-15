@@ -7,7 +7,7 @@ export default function PosterSection() {
       aria-hidden>
       <div className="absolute inset-0 bg-gray4Background" />
       <Image
-        src="/images/poster.png"
+        src="/images/png/poster.png"
         alt="Login poster"
         fill
         quality={75}
