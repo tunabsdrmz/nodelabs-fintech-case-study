@@ -34,16 +34,18 @@ function SummaryCard(props: SummaryCardProps) {
 
   return (
     <article
-      className="w-full h-full items-center flex flex-row gap-3.5 bg-gray2Background hover:bg-darkGray1Background px-5 py-6 rounded-lg group transition-colors text-nowrap cursor-default"
+      className="w-full h-full items-center flex flex-col gap-3.5 sm:flex-row bg-gray2Background hover:bg-darkGray1Background px-5 py-6 rounded-lg group transition-colors text-nowrap cursor-default"
       aria-labelledby={`summary-card-${label.replace(/\s+/g, "-").toLowerCase()}-label`}>
-      <div className="bg-gray3Background p-3 rounded-full group-hover:bg-darkGray2Background transition-colors" aria-hidden>
+      <div
+        className="bg-gray3Background p-3 rounded-full group-hover:bg-darkGray2Background transition-colors"
+        aria-hidden>
         <Icon className="w-5 h-5 text-darkGray1Background group-hover:text-primaryColor transition-colors" />
       </div>
 
       <div className="flex flex-col gap-2">
         <p
           id={`summary-card-${label.replace(/\s+/g, "-").toLowerCase()}-label`}
-          className="text-text2Color font-normal text-sm">
+          className="text-text2Color font-normal text-sm text-center sm:text-left">
           {label}
         </p>
         <p

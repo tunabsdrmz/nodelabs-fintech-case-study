@@ -1,8 +1,8 @@
 import RecentTransactions from "./components/RecentTransactions";
 import ScheduledTransfers from "./components/ScheduledTransfers";
+import WorkingCapital from "./components/WorkingCapital";
 import SummaryCards from "./components/SummaryCards";
 import WalletsCard from "./components/WalletsCard";
-import WorkingCapital from "./components/WorkingCapital";
 
 export default function DashboardPageView() {
   return (

@@ -6,6 +6,7 @@ import { Providers } from "@/layout/Providers";
 const kumbhSans = Kumbh_Sans({
   variable: "--font-kumbh-sans",
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -20,6 +21,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="preconnect"
+          href={process.env.NEXT_PUBLIC_API_URL}
+        />
+      </head>
       <body className={`${kumbhSans.variable} antialiased`}>
         <Providers>{children}</Providers>
       </body>

@@ -1,8 +1,8 @@
 "use client";
 
 import userNavigation from "@/navigation/user";
-import NavigationItem from "./NavigationItem";
 import { useAuth } from "@/context/AuthContext";
+import NavigationItem from "./NavigationItem";
 
 function NavigationBar() {
   const { logout } = useAuth();

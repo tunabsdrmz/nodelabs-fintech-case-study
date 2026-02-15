@@ -14,10 +14,7 @@ import { SectionError } from "@/components/error/SectionError";
 import { Select } from "@/components/Select";
 import { Skeleton } from "@/components/Skeleton";
 import { CustomTooltip } from "./CustomTooltip";
-import {
-  DEFAULT_DATE_RANGE,
-  DATE_RANGE_OPTIONS,
-} from "../constants";
+import { DEFAULT_DATE_RANGE, DATE_RANGE_OPTIONS } from "../constants";
 import { useWorkingCapital } from "../useDashboard";
 
 export default function WorkingCapital() {
